@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Codystar&family=Open+Sans:wght@300&display=swap");
+
+.Pokedex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Pokedex-exp {
+  color: #9cbdbf;
+}
+
+.Pokedex-winner {
+  background-color: #77e640;
+}
+.Pokedex-loser {
+  background-color: #f24d3a;
+}
+
+.Pokedex-exp,
+.Pokedex-winner,
+.Pokedex-loser {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Pokedex-winner,
+.Pokedex-loser {
+  margin: 0 auto;
+  width: 175px;
+  border-radius: 50px;
+}
